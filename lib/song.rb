@@ -62,7 +62,7 @@ class Song
   private
 
   def self.parse_filename(filename)
-    filename.split(/[\.]|(\s-\s)/).delete_if { |e| e == ' - ' || e == "." }
+    filename.split(/[\.]|(\s-\s)/).delete_if { |e| e == " - " || e == "." }
   end
 
 end
